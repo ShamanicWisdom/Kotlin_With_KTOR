@@ -1,0 +1,161 @@
+body
+{
+    background-color:  #7ab4e2;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: "Segoe UI Semibold";
+}
+
+.blank-row
+{
+    height: 30px !important;
+}
+
+.form-table
+{
+    align-content: center;
+    font-family: "Segoe UI Semibold";
+    font-size: large;
+    color: white;
+    width: 15%;
+}
+
+.form-table td
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.error-msg-table
+{
+    align-content: center;
+    font-family: "Segoe UI Semibold";
+    font-size: red;
+    color: red;
+    width: 15%;
+}
+
+.error-msg-table td
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input[type=password]
+{
+    -webkit-transition-duration: 0.1s;
+    background-color: #FFFFFF;
+    border: 2px solid #153f60;
+    color: black;
+    font-weight: bold;
+    height: 25px;
+    width: 100%;
+}
+
+input[type=password]:hover
+{
+    background-color: #fcfadb;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=password]:active
+{
+    background-color: white;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=text]
+{
+    -webkit-transition-duration: 0.1s;
+    background-color: #FFFFFF;
+    border: 2px solid #153f60;
+    color: black;
+    font-weight: bold;
+    height: 25px;
+    width: 100%;
+}
+
+input[type=text]:hover
+{
+    background-color: #fcfadb;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=text]:active
+{
+    background-color: white;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=number]
+{
+    -webkit-transition-duration: 0.1s;
+    background-color: #FFFFFF;
+    border: 2px solid #153f60;
+    color: black;
+    font-weight: bold;
+    height: 25px;
+    width: 50%;
+}
+
+input[type=number]:hover
+{
+    background-color: #fcfadb;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=number]:active
+{
+    background-color: white;
+    border: 2px solid #153f60;
+    color: black;
+}
+
+input[type=submit]
+{
+    -webkit-transition-duration: 0.1s;
+    background-color: #23689f;
+    border: 3px solid #23689f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+    width: 102%;
+}
+
+input[type=submit]:hover
+{
+    background-color: #153f60;
+    border: 3px solid #153f60;
+}
+
+input[type=submit]:active
+{
+    background-color: white;
+    border: 3px solid #23689f;
+    color: black;
+}
+
+.description-table, description-th, description-td, description-tr
+{
+    align-content: center;
+    font-family: "Segoe UI Semibold";
+    font-size: large;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+}
